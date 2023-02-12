@@ -14,7 +14,7 @@ n = int(input("Введите количество элементов перво
 m = int(input("Введите количество элементов второго множества: "))
 list_1 = set(map(int, input("Введите элементы первого множества: ").split()))
 list_2 = set(map(int, input("Введите элементы второго множества: ").split()))
-print(sorted(list_1 & list_2))
+print(*sorted(list_1 & list_2))
 
 
 # Решение №2
